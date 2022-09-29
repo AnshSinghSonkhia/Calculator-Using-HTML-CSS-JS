@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator using HTML, CSS, JS</title>
+
+    <link rel="icon" type="image/png" href="images/calculator.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="utils.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculator Using HTML, CSS, JS"/>
+
+    <meta property="og:title" content="Calculator Using HTML, CSS, JS" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    
+</head>
+<body>
+    
+    <h1 class="text-center text-size">Welcome To My Calculator<br><i>Ansh Singh Sonkhia</i></h1>
+
+    <div class="container flex flex-col items-center mx-auto">
+
+        <div class="row">
+            <input class="input" type="text"/>
+        </div>
+        <div class="row">
+            <button class="button greyBut">C</button>
+            <button class="button greyBut" id="hundred">100</button>
+            <button class="button greyBut">%</button>
+            <button class="button lastBut">00</button>            
+          </div>
+        <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button lastBut">*</button>
+        </div>
+        <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button lastBut">/</button>
+        </div>
+        <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button lastBut">+</button>
+        </div>
+        <div class="row" id="C">
+            <button class="button">0</button>
+            <button class="button"><b>.</b></button>
+            <button class="button">=</button>
+            <button class="button lastBut">-</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;                
+    cursor: pointer;
+    background-color: beige;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 290px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: lawngreen;
+}
+
+#hundred {
+    padding: 20px 11px;
+}
+
+.lastBut {
+    background-color: orange;
+}
+
+.greyBut {
+    background-color: black;
+    color: white;
+}
+
+/*Completed*/

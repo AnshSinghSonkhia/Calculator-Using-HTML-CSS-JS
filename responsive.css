@@ -1,0 +1,43 @@
+/*Responsive Layout */
+@media (max-width: 512px) {
+    .text-size {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .text-size {
+        font-size: 14px;
+    }
+    .button {
+        width: 53px;
+        margin: 0 2px;        
+    }
+    .row input {
+        width: 225px;
+    }
+    .items-center {
+        margin: -11px 0px;
+    }
+}
+
+@media (max-width: 265px) {
+    .text-size {
+        font-size: 12px;
+    }
+    .button {
+        width: 34px;
+        margin: 0px 0px;
+        font-size: 10px;
+        margin: 0;
+        padding: 4px 4px;
+        border: 2px solid black;
+        border-radius: 14px;       
+    }
+    #hundred {
+        padding: 4px 4px;
+    }
+    .row input {
+        width: 125px;
+    }
+}
